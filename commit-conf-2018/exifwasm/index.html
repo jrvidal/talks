@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+  <main>
+    <div class="input">
+      <input type="file" id="input" multiple/>
+    </div>
+    <div id="pictures">
+
+    </div>
+  </main>
+
+  <script type="text/javascript" src="./main.js"></script>
+
+  <style type="text/css">
+    body {
+      margin: 0;
+      background:radial-gradient(#000 15%,transparent 16%) 0 0,radial-gradient(#000 15%,transparent 16%) 8px 8px,radial-gradient(rgba(255,255,255,.1) 15%,transparent 20%) 0 1px,radial-gradient(rgba(255,255,255,.1) 15%,transparent 20%) 8px 9px;
+      background-color:#282828;
+      background-size:16px 16px;
+    }
+
+    main {
+      margin: 0;
+      width: 70%;
+      margin: auto;
+      background: rgba(200, 200, 200, 60);
+    }
+
+    .input {
+      padding: 20px 40px;
+    }
+
+    #pictures {
+      min-height: 2000px;
+      padding: 30px;
+    }
+
+    .metadata {
+      display: none;
+    }
+
+    .picture {
+      display: inline-block;
+      padding: 10px;
+    }
+
+    .success {
+      border: 2px solid green;
+    }
+
+    .error {
+      border: 2px solid red;
+    }
+
+    .no-metadata {
+      border: 2px solid grey;
+    }
+  </style>
+
+</body>
+</html>
